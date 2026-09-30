@@ -1,0 +1,15 @@
+[package]
+name = "vd6283-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = "1.0"
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "1.0"
+vd6283 = "0.1.0"
+
+[dependencies.stm32f4xx-hal]
+version = "0.23.0"
+features = ["stm32f411"]
