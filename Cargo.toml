@@ -3,6 +3,11 @@ name = "vd6283-rs"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "vd6283-rs"
+#path = "src/flicker.rs"
+path = "src/als.rs"
+
 [dependencies]
 embedded-hal = "1.0"
 cortex-m = "0.7"
